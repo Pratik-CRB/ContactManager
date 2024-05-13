@@ -1,0 +1,54 @@
+# # GET http://localhost:8080/students/all
+
+# # ###
+
+GET http://localhost:2000/
+
+###
+
+POST http://localhost:2000/
+{
+    "name" : "Pratik",
+    "gmail": "Pratikbulkunde03@gmail.com",
+    "number": "125364592"
+}
+
+# # POST  http://localhost:8080/students/add
+# # Accept: application/application/json
+# # Content-Type: application/json
+
+# # {
+# #     "name" : "Neha",
+# #     "age" : "24",
+# #     "rollUmber": "45468",
+# #     "email" : "neha@gmail.com",
+# #     "gender" : "female"
+# # }
+
+#  GET http://localhost:2000
+
+# ###
+#  POST  http://localhost:2000/home
+# Accept: application/application/json
+# Content-Type: application/json
+
+# {
+#     "name" : "Pratik",
+#     "gmail" : "Pratik@gmail.com",
+#     "number" : "785963215"
+
+# }
+
+# ###
+# PUT http://localhost:2000/6620be86f2543c3ec198de8e
+
+
+# {
+#     "name" : "Neha",
+#     "gmail" : "Nikhil@gmail.com",
+#     "number" : "8795963215"
+
+# }
+
+# ### 
+# DELETE  http://localhost:2000/6620be86f2543c3ec198de8e
